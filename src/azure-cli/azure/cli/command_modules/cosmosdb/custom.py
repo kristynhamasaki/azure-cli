@@ -141,9 +141,7 @@ def cli_cosmosdb_create(cmd, client,
         public_network_access=public_network_access,
         api_properties=api_properties,
         enable_analytical_storage=enable_analytical_storage,
-        enable_free_tier=enable_free_tier,
-        network_acl_bypass=network_acl_bypass,
-        network_acl_bypass_resource_ids=network_acl_bypass_resource_ids)
+        enable_free_tier=enable_free_tier)
 
     async_docdb_create = client.create_or_update(resource_group_name, account_name, params)
     docdb_account = async_docdb_create.result()
