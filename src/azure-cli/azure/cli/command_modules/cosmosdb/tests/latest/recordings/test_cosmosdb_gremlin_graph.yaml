@@ -21,7 +21,7 @@ interactions:
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/cli_test_cosmosdb_gremlin_graph000001?api-version=2020-10-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/cli_test_cosmosdb_gremlin_graph000001","name":"cli_test_cosmosdb_gremlin_graph000001","type":"Microsoft.Resources/resourceGroups","location":"westus","tags":{"product":"azurecli","cause":"automation","date":"2021-02-20T00:35:18Z"},"properties":{"provisioningState":"Succeeded"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/cli_test_cosmosdb_gremlin_graph000001","name":"cli_test_cosmosdb_gremlin_graph000001","type":"Microsoft.Resources/resourceGroups","location":"westus","tags":{"product":"azurecli","cause":"automation","date":"2021-02-20T01:15:09Z"},"properties":{"provisioningState":"Succeeded"}}'
     headers:
       cache-control:
       - no-cache
@@ -30,7 +30,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sat, 20 Feb 2021 00:35:18 GMT
+      - Sat, 20 Feb 2021 01:15:09 GMT
       expires:
       - '-1'
       pragma:
@@ -44,61 +44,4 @@ interactions:
     status:
       code: 200
       message: OK
-- request:
-    body: '{"location": "westus", "kind": "GlobalDocumentDB", "properties": {"locations":
-      [{"locationName": "westus", "failoverPriority": 0, "isZoneRedundant": false}],
-      "databaseAccountOfferType": "Standard", "capabilities": [{"name": "EnableGremlin"}],
-      "apiProperties": {}, "createMode": "Default"}}'
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - cosmosdb create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '289'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - -n -g --capabilities
-      User-Agent:
-      - python/3.8.7 (Windows-10-10.0.19041-SP0) msrest/0.6.18 msrest_azure/0.6.3
-        azure-mgmt-cosmosdb/2.0.0rc1 Azure-SDK-For-Python AZURECLI/2.19.1
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/cli_test_cosmosdb_gremlin_graph000001/providers/Microsoft.DocumentDB/databaseAccounts/cli000004?api-version=2020-06-01-preview
-  response:
-    body:
-      string: '{"code":"BadRequest","message":"The subscription is exceeding the maximum
-        number of allowed DatabaseAccounts. The current DatabaseAccount count is 305
-        and maximum allowed DatabaseAccounts are 300.\r\nActivityId: 821338e8-7313-11eb-a1b2-2cf05d1b97b4,
-        Microsoft.Azure.Documents.Common/2.11.0"}'
-    headers:
-      cache-control:
-      - no-store, no-cache
-      content-length:
-      - '291'
-      content-type:
-      - application/json
-      date:
-      - Sat, 20 Feb 2021 00:35:22 GMT
-      pragma:
-      - no-cache
-      server:
-      - Microsoft-HTTPAPI/2.0
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-gatewayversion:
-      - version=2.11.0
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: BadRequest
 version: 1
