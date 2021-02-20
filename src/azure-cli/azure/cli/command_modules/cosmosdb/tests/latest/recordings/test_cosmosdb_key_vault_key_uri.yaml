@@ -21,7 +21,7 @@ interactions:
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/cli_test_cosmosdb_key_vault_key_uri000001?api-version=2020-10-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/cli_test_cosmosdb_key_vault_key_uri000001","name":"cli_test_cosmosdb_key_vault_key_uri000001","type":"Microsoft.Resources/resourceGroups","location":"westus","tags":{"product":"azurecli","cause":"automation","date":"2021-02-19T22:11:05Z"},"properties":{"provisioningState":"Succeeded"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/cli_test_cosmosdb_key_vault_key_uri000001","name":"cli_test_cosmosdb_key_vault_key_uri000001","type":"Microsoft.Resources/resourceGroups","location":"westus","tags":{"product":"azurecli","cause":"automation","date":"2021-02-20T00:30:54Z"},"properties":{"provisioningState":"Succeeded"}}'
     headers:
       cache-control:
       - no-cache
@@ -30,7 +30,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 19 Feb 2021 22:11:07 GMT
+      - Sat, 20 Feb 2021 00:30:55 GMT
       expires:
       - '-1'
       pragma:
@@ -85,19 +85,19 @@ interactions:
       dataserviceversion:
       - 3.0;
       date:
-      - Fri, 19 Feb 2021 22:11:07 GMT
+      - Sat, 20 Feb 2021 00:30:56 GMT
       duration:
-      - '1148153'
+      - '1091247'
       expires:
       - '-1'
       ocp-aad-diagnostics-server-name:
-      - 0ne6VVkYZRIaH+6HTKLZMwf0y9fUX539S95rqwV8csQ=
+      - 1fyjRoicjuNChD2ABO3+PiXf7Tcmxtx8X0lBQtvEqgw=
       ocp-aad-session-key:
-      - LKvKpMnvyxE8UyBqAgEFsIYgZ-f5oQONDeXrP5FFoZDHOX9Ez5xtvoZ9h226GUe4IWJRq2Q2rXnmTSlbcpXAyPTkxxkAzKEhL2CdPrZLUxGNETxyNPt3vD7gIEdGUomY.hocVhFDQ-PtoYePCX8PoHeSJHRc-tV4GYXfm68ZFco8
+      - ezpiLBwjXczJugAo1LrRny45IBfnAvwJk32AshKs7U7ujZtxCxZLNDTpben4CKTn1532tu1xR8y8qxaKMFoukEEzNMXyJwbRIRxkem2zotsDIpJsQXFO6im_jMnwwZvu.Nrt7cU75OgppWgSd3Bqy_ca6cTXvzamJgMYoMX9H4KI
       pragma:
       - no-cache
       request-id:
-      - a3f74bfb-3433-4531-a01b-8f81ce2aa1f7
+      - 852849c9-43c8-467e-9a77-2a94336bede6
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -153,7 +153,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 19 Feb 2021 22:11:09 GMT
+      - Sat, 20 Feb 2021 00:30:58 GMT
       expires:
       - '-1'
       pragma:
@@ -173,7 +173,7 @@ interactions:
       x-ms-keyvault-service-version:
       - 1.0.104.232
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1198'
+      - '1199'
       x-powered-by:
       - ASP.NET
     status:
